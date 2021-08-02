@@ -2,6 +2,9 @@ import logo from './logo.svg';
 import './App.css';
 
 import EthutamiProfile from './Component/ethutami/profile';
+import RinaldyProfile from './Component/Renaldy/profile';
+import FurqonProfile from './Component/Furqon/profile';
+import Content from './contentbody'
 
 function App() {
   return (
@@ -12,7 +15,12 @@ function App() {
           Kelompok 7
         </p>
       </header>
+      <div className='App-content'>
         <EthutamiProfile/>
+        <RinaldyProfile/>
+        <FurqonProfile/>
+      </div>
+      <Content/>
     </div>
   );
 }
