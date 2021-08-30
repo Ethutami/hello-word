@@ -1,0 +1,23 @@
+{
+  "name": "hello-word",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethutami/hello-word.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ethutami/hello-word/issues"
+  },
+  "homepage": "https://github.com/Ethutami/hello-word#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
